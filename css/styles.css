@@ -300,7 +300,7 @@ body{
 }
 
 .our-conocimientos .container-conocimientos .conocimientos-img img{
-    width: calc(30% -10px);
+    width: calc(30% - 10px);
     margin: 10px;
     object-fit: cover;
     border-radius: 10px;
@@ -310,4 +310,103 @@ body{
 /**Conocimientos**/
 
 
+/**Proyectos**/
+
+ .proyectos{
+    width: 100%;
+    margin-top: 120px;
+
+}
+
+.proyectos .proyectos-title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.proyectos .proyectos-title h2{
+    font-size: 50px;
+    color: var(--black);
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.proyectos .proyectos-title hr{
+    width: 60%;
+    margin: auto;
+    height: 2px;
+    background: var(--black);
+    border: none;
+}
+
+.proyectos .box-proyectos{
+    width: 90%;
+    margin: 80px auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyectos .box-proyectos .card-proyectos{
+    width: 405;
+    margin: 20px;
+
+}
+.proyectos .box-proyectos .card-proyectos .card-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+.proyectos .box-proyectos .card-proyectos .card-img img{
+    width: 500px;
+    height: 300%;
+    border-radius: 10%;
+    object-fit: cover;
+    cursor: pointer;
+    
+    border: 2px solid var(--black);
+    
+}
+
+.proyectos .box-proyectos .card-proyectos .proyectos-text{
+    width: 100%;
+    border: 2px solid var(--red);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 200ms;
+    margin-top: 20px;
+}
+.proyectos .box-proyectos .card-proyectos .proyectos-text h4{
+    color: var(--red);
+    font-weight: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: 200ms;
+    
+}
+
+.proyectos .box-proyectos .card-proyectos .proyectos-text p{
+    font-size: 19px;
+    color: var(--black);
+    text-align: center;
+    line-height: 35px;
+    transition: 0.2s;
+}
+
+.proyectos .box-proyectos .card-proyectos .proyectos-text:hover{
+    border: 2px solid var(--blue);
+}
+
+.proyectos .box-proyectos .card-proyectos .proyectos-text:hover h4{
+    color: var(--blue);
+}
+ 
+
+/**Proyectos**/
 
