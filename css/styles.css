@@ -393,7 +393,7 @@ body {
 }
 
 .proyectos .box-proyectos .card-proyectos {
-  width: 405;
+  width: 40%;
   margin: 20px;
 }
 .proyectos .box-proyectos .card-proyectos .card-img {
@@ -775,7 +775,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 520px){
     .menu .logo-box h1 a{
         font-size: 30px;
     }
@@ -828,8 +828,48 @@ body {
       }
     
       .footer .footer-content .formulario-content #formulario input {
-        font-size: 14px;
+        font-size: 18px;
+      }
+
+      .footer .footer-content .formulario-content #formulario label {
+        font-size: 0px;
+      }
+
+      .proyectos .box-proyectos .card-proyectos .proyectos-text {
+        width: 100%;
+        padding: 5px;
+        border-radius: 20px;
+      }
+
+      .proyectos .box-proyectos .card-proyectos .proyectos-text h4 {
+        color: var(--red);
+        font-size: 20px;
+      }
+      
+      .proyectos .box-proyectos .card-proyectos .proyectos-text p {
+        font-size: 17px;
+        line-height: 25px;
         
+      }
+
+      .footer .footer-content .formulario-content #formulario textarea {
+        width: 100%;
+        height: 100px;
+        
+      }
+
+      .footer .footer-content .formulario-content {
+        width: 100%;
+      
+      }
+
+      .footer .footer-content .footer-title {
+        width: 80%;
+      }
+      
+      .footer .footer-content .footer-title h2 {
+        font-size: 27px;
+       
       }
 }
 
